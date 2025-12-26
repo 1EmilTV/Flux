@@ -1,0 +1,27 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "my own browser",
+  "keywords": [
+    "browser"
+  ],
+  "homepage": "https://github.com/1EmilTV/Flux#readme",
+  "bugs": {
+    "url": "https://github.com/1EmilTV/Flux/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1EmilTV/Flux.git"
+  },
+  "license": "MIT",
+  "author": "Emil Repmann",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
+}
