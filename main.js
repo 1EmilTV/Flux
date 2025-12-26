@@ -36,7 +36,7 @@ app.whenReady().then(() => {
     createWindow()
 
     app.on('activate', () => {
-        if (BrowserWindow.getAllWindows().length === 0) {
+        if (BaseWindow.getAllWindows().length === 0) {
           createWindow()
         }
     });
@@ -53,7 +53,6 @@ app.on('window-all-closed', () => {
 ipcMain.on('search', (e, query) => {
     console.log('Loading ' + query);
     browserView.webContents.loadURL(query);
-    
 });
 
 console.log('Main running');
